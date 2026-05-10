@@ -328,7 +328,7 @@
             const url = document.getElementById('urlInput').value.trim();
             const btn = document.getElementById('fetchBtn');
             const btnText = document.getElementById('btnText');
-            const btnIcon = document.getElementById('btnIcon');
+            const btnIcon = document.getElementById('btnIcon'); 
 
             if (!url) {
                 showToast('Masukkan URL terlebih dahulu', 'error');
@@ -345,7 +345,7 @@
             btnIcon.className = 'fas fa-circle-notch fa-spin';
 
             try {
-                const apiUrl = 'https://api.siputzx.my.id/api/d/savefrom?url=' + encodeURIComponent(url);
+                const apiUrl = 'https://api.siputzx.my.id/api/d/ummy?url=' + encodeURIComponent(url);
 
                 console.log('Fetching:', apiUrl);
 
